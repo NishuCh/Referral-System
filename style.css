@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav {
+   display: flex;
+   flex-direction: row; 
+   align-items: center;
+   justify-content: space-around;
+   color: #38475e;
+   padding:10px 0;
+}
+ nav a {
+    color: #38475e;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+ nav a:hover{
+    color: rgb(91, 154, 231);
+}
+
+
